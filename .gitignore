@@ -6,6 +6,7 @@ lib-cov
 *.out
 *.pid
 *.gz
+*.psd
 
 pids
 logs
@@ -14,7 +15,6 @@ results
 node_modules
 npm-debug.log
 
-index.html
 lib/impact
 lib/weltmeister
 tools/
