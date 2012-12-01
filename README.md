@@ -9,6 +9,9 @@ Rock Kickass is a platformer that follows an android and two wacky scientists wh
 
 As Rock Kickass you must fight your way through swarms of enemies, merging their code as you kill them, so that you can gain their powers in order to survive.
 
+## Dependencies
+Rock Kickass requires [ImpactJS v1.20](http://impactjs.com) in order to be run locally. You can run Rock Kickass under any webserver, the `start_server.bat` file requires IIS Express 7.0+ in order to work.
+
 ## Game Design
 We wanted to make a game that 
 
