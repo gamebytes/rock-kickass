@@ -2,31 +2,207 @@
 <html>
 <head>
 	<title>Rock Kickass | A Retro Platformer Romp by Frag Castle Games</title>
-	<style type="text/css">
-		html,body {
-			background-color: #000;
-			color: #fff;
-			font-family: helvetica, arial, sans-serif;
-			margin: 0;
-			padding: 0;
-			font-size: 12pt;
-		}
+  <link href="http://fragcastle.com/assets/themes/fragcastle/css/bootstrap.css" rel="stylesheet">
+  <link href="http://fragcastle.com/assets/themes/fragcastle/css/bootstrap-responsive.css" rel="stylesheet">
+  <link href="http://fragcastle.com/assets/themes/fragcastle/css/style.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid+Sans:400,700">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid+Serif">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Boogaloo">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Economica:700,400italic">
 
-		#canvas {
-			position: absolute;
-			left: 0;
-			right: 0;
-			top: 0;
-			bottom: 0;
-			margin: auto;
-			border: 1px solid #555;
-		}
-	</style>
+  <style type="text/css">
+  	#canvas
+  	{
+  		border: 1px solid black;
+  	}
+  </style>
 
-	<script type="text/javascript" src="game.min.js"></script>
+  <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
 </head>
 <body>
-	<canvas id="canvas"></canvas>
+  <!--start: Header -->
+  <header>
+    <!--start: Container -->
+    <div class="container">
+      <!--start: Row -->
+      <div class="row">
+        <!--start: Logo -->
+        <div class="pagination-centered mobilelogo hidden-desktop">                  
+          <a href="http://fragcastle.com/">
+              <img src="http://fragcastle.com/assets/site/img/logo_mobile.png" alt="Frag Castle Games">
+          </a>
+        </div>
+        <div class="logo span3 visible-desktop">
+          <a href="http://fragcastle.com/">
+            <img src="http://fragcastle.com/assets/site/img/logo.png" alt="Frag Castle Games">
+          </a>
+        </div>
+        <!--end: Logo -->
+        <!--start: Navigation -->
+        <div class="span9">
+          <div class="navbar navbar-inverse">
+            <div class="navbar-inner">
+              <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                <span class="icon-bar"><!-- --></span>
+                <span class="icon-bar"><!-- --></span>
+                <span class="icon-bar"><!-- --></span>
+              </a>
+              <div class="nav-collapse collapse">
+                <ul class="nav pull-right">
+					      	<li><a href="http://fragcastle.com/categories.html">Categories</a></li>
+					      	<li><a href="http://fragcastle.com/pages.html">Pages</a></li>
+					      	<li><a href="http://fragcastle.com/games.html">Our Games</a></li>
+					      	<li><a href="http://fragcastle.com/tags.html">Tags</a></li>
+					      	<li><a href="http://fragcastle.com/archive.html">Archive</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--end: Navigation -->
+      </div>
+      <!--end: Row -->
+    </div>
+    <!--end: Container-->
+  </header>
+  <!--end: Header-->
+
+
+	<!--start: Wrapper-->
+	<div id="wrapper">
+    <!--start: Container -->
+    <div class="container">
+
+    	<div class="row">
+    		<div style="width: 1000px; margin: 0 auto">
+					<canvas id="canvas"></canvas>
+				</div>
+			</div>
+
+      <div class="hero-social">
+        <div class="container">
+          <ul class="social-buttons">
+            <li class="follow-btn">
+              <iframe allowtransparency="true" frameborder="0" scrolling="no" src="http://platform.twitter.com/widgets/follow_button.1354761327.html#_=1355114446272&amp;id=twitter-widget-1&amp;lang=en&amp;screen_name=fragcastle&amp;show_count=true&amp;show_screen_name=true&amp;size=m" class="twitter-follow-button" style="width: 242px; height: 20px;" title="Twitter Follow Button" data-twttr-rendered="true"><!-- --></iframe>
+            </li>
+            <li class="tweet-btn">
+              <iframe allowtransparency="true" frameborder="0" scrolling="no" src="http://platform.twitter.com/widgets/tweet_button.1354761327.html#_=1355114446269&amp;count=horizontal&amp;id=twitter-widget-0&amp;lang=en&amp;original_referer=http%3A%2F%2Ffragcastle.com%2F&amp;related=mdo%3ACreator%20of%20Rock%20Kickass&amp;size=m&amp;text=Frag Castle Games&amp;url=http%3A%2F%2fragcastle.com%2F&amp;via=fragcastle" class="twitter-share-button twitter-count-horizontal" style="width: 110px; height: 20px;" title="Twitter Tweet Button" data-twttr-rendered="true"><!-- --></iframe>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- end: Row -->
+      <hr class='clean' />
+    </div>
+    <!--end: Container-->
+	</div><!-- end: Wrapper  -->
+
+  <!-- start: Footer -->
+  <div id="footer">
+    <!-- start: Container -->
+    <div class="container">
+      <!-- start: Row -->
+      <div class="row">
+        <!-- start: About -->
+        <div class="span3">
+          <h3>frag castle</h3>
+          <p>
+            <i class="fa-icon-map-marker"><!-- --></i> 1201 Orange, One Commerce Center
+          </p>
+          <p>
+            <i class="fa-icon-map-marker"><!-- --></i> Wilmington, DE, 19899
+          </p>
+          <p>
+            <i class="fa-icon-envelope"><!-- --></i> Email: info@fragcastle.com
+          </p>
+          <p>
+            <i class="fa-icon-globe"><!-- --></i> Web: fragcastle.com
+          </p>
+        </div>
+        <!-- end: About -->
+
+        <!-- start: Latest Tweets -->
+        <div class="span3">
+          <h3>Latest Tweets</h3>
+          <ul id="twitter">
+            <!-- -->
+          </ul>
+          <div class="clear"><!-- --></div>
+        </div>
+        <!-- end: Latest Tweets -->
+
+        <!-- start: Follow Us -->
+        <div class="span3">
+          <h3>Follow Us</h3>
+          <div id="social-r" class="tooltips">
+            <a href="http://github.com/fragcastle" rel="tooltip" title="Github" class="github">Github</a>
+            <a href="http://fragcastle.com/atom.xml" rel="tooltip" title="RSS" class="rss">RSS</a>
+            <a href="http://twitter.com/fragcastle" rel="tooltip" title="Twitter" class="twitter">Twitter</a>
+          </div>
+        </div>
+        <!-- end: Follow Us -->
+      </div>
+      <!-- end: Row -->
+    </div>
+    <!-- end: Container  -->
+  </div>
+  <!-- end: Footer -->
+
+  <!-- start: Footer Menu -->
+  <div id="under-footer" class="hidden-tablet hidden-phone">
+    <!-- start: Container -->
+    <div class="container">
+      <!-- start: Row -->
+      <div class="row">
+        <!-- start: Footer Menu Logo -->
+        <div class="span2">
+          <div id="under-footer-logo">
+            <!-- this space for rent -->
+          </div>
+        </div>
+        <!-- end: Footer Menu Logo -->
+
+        <!-- start: Footer Menu Links-->
+        <div class="span9">
+          <div id="under-footer-copyright">
+            &copy; 2012, Frag Castle Games.
+          </div>
+        </div>
+        <!-- end: Footer Menu Links-->
+
+        <!-- start: Footer Menu Back To Top -->
+        <div class="span1">
+          <div id="under-footer-back-to-top">
+            <a href="#"><!-- --></a>
+          </div>
+        </div>
+        <!-- end: Footer Menu Back To Top -->
+      </div>
+      <!-- end: Row -->
+    </div>
+    <!-- end: Container  -->
+  </div>
+  <!-- end: Footer Menu -->
+
+  <!-- start: Java Script -->
+  <!-- Placed at the end of the document so the pages load faster -->
+	<script type="text/javascript" src="game.min.js"></script>
+
+  <script src="http://fragcastle.com/assets/themes/fragcastle/js/jquery-1.8.2.js"><!-- --></script>
+  <script src="http://fragcastle.com/assets/themes/fragcastle/js/isotope.js"><!-- --></script>
+  <script src="http://fragcastle.com/assets/themes/fragcastle/js/jquery.imagesloaded.js"><!-- --></script>
+  <script src="http://fragcastle.com/assets/themes/fragcastle/js/bootstrap.js"><!-- --></script>
+  <script src="http://fragcastle.com/assets/themes/fragcastle/js/flexslider.js"><!-- --></script>
+  <script src="http://fragcastle.com/assets/themes/fragcastle/js/carousel.js"><!-- --></script>
+  <script src="http://fragcastle.com/assets/themes/fragcastle/js/jquery.cslider.js"><!-- --></script>
+  <script src="http://fragcastle.com/assets/themes/fragcastle/js/slider.js"><!-- --></script>
+  <script src="http://fragcastle.com/assets/themes/fragcastle/js/fancybox.js"><!-- --></script>
+  <script src="http://fragcastle.com/assets/themes/fragcastle/js/twitter.js"><!-- --></script>
+  <script src="http://fragcastle.com/assets/themes/fragcastle/js/jquery.placeholder.min.js"><!-- --></script>
+  <!-- end: Java Script -->
 
 	<script type="text/javascript">
 	  var _gaq = _gaq || [];
