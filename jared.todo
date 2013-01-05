@@ -1,0 +1,18 @@
+Issue 42 - Inheritance:
+   anything related to how objects are structured and organized should go here
+   ✘ get player to inherit from base entity @cancelled (12-12-31 20:07)
+
+Issue 44 - Debris instead of particles on enemy death:
+   ✘ add debris spawning to base entity @cancelled (12-12-31 20:08)
+   ✘ add ability for inheriting entities to specify debris configuration @cancelled (12-12-31 20:08)
+   ✘ add death sound effect to base entity @cancelled (13-01-01 23:03)
+
+Code Cleanup:
+   just general code cleanup...
+   ✘ remove debris from entities @cancelled (13-01-01 23:03)
+   ☐ change director to directors
+   ✘ create debris-spawner in entities folder @cancelled (13-01-01 23:03)
+   ☐
+
+Issue 38 - Remove the Santa Hat:
+   ☐ remove the damn hat :D
